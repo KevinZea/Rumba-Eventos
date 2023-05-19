@@ -1,3 +1,11 @@
+import uno from "../../images/slider/1.jpeg"
+import dos from "../../images/slider/2.jpeg"
+import tres from "../../images/slider/3.jpeg"
+import cuatro from "../../images/slider/4.jpeg"
+import cinco from "../../images/slider/5.jpeg"
+
+import r1 from "../../images/recent/1.jpeg"
+import r2 from "../../images/recent/2.jpeg"
 
 let navbar_items = [
 	{
@@ -42,38 +50,37 @@ let navbar_accounts = [
 	}
 ]
 
-
 let top_blogs = [
 	{
-		img: require('../../images/slider/1.jpeg'),
+		img: uno,
 		alt: 'blog 1'
 	},
 	{
-		img: require('../../images/slider/2.jpeg'),
+		img: dos,
 		alt: 'blog 2'
 	},
 	{
-		img: require('../../images/slider/3.jpeg'),
+		img: tres,
 		alt: 'blog 3'
 	},
 	{
-		img: require('../../images/slider/5.jpeg'),
+		img: cuatro,
 		alt: 'blog 4'
 	},
 	{
-		img: require('../../images/slider/4.jpeg'),
+		img: cinco,
 		alt: 'blog 5'
 	}
 ]
 
 let recent_blogs = [
 	{
-		img: require('../../images/recent/1.jpeg'),
+		img: r1,
 		alt: 'blog 6',
 		mar: 'mb-3'
 	},
 	{
-		img: require('../../images/recent/2.jpeg'),
+		img: r2,
 		alt: 'blog 7',
 		mar: ''
 	}

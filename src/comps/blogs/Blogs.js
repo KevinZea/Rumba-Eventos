@@ -12,7 +12,7 @@ class Blogs extends Component
 			return (
 				<div className = 'c col-lg-6 col-12 mb-4' key = {Math.random()}>
 					<div className = 'card shadow-lg'>
-						<img className = 'card-img-top' src = {item.img.default} alt = {item.alt}/>
+						<img className = 'card-img-top' src = {item.img} alt = {item.alt}/>
 					</div>
 				</div>
 			)
@@ -27,7 +27,7 @@ class Blogs extends Component
 			return (
 				<div className = {`c col-12 ${item.mar}`} key = {Math.random()}>
 					<div className = 'card shadow-lg'>
-						<img className = 'card-img-top' src = {item.img.default} alt = {item.alt}/>
+						<img className = 'card-img-top' src = {item.img} alt = {item.alt}/>
 					</div>
 				</div>
 			)
