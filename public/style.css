@@ -1,8 +1,7 @@
 html {
   scroll-behavior: smooth; }
   html body {
-    background-image: url("./fondo.jpg") !important;
-    background-repeat:round;
+    background-color: white !important;
     color: black; }
 
 /*# sourceMappingURL=style.css.map */

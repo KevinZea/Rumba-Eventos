@@ -10,7 +10,8 @@ import Faq from './comps/faq/Faq'
 import Contact from './comps/contact/Contact'
 import Footer from './comps/footer/Footer'
 import Sb from './comps/sb/Sb'
-
+import Btn from './comps/btn-whatsapp/btnwhatsapp'
+import Servicios from './comps/servicios/Servicios'
 class App extends Component
 {
     render()
@@ -18,6 +19,7 @@ class App extends Component
         return(
             <>
                 <Sb />
+                <Btn></Btn>
                 <div className = '_header'>
                     <Header />
                 </div>
@@ -27,6 +29,7 @@ class App extends Component
                 <div className = '_body'>
                     <About />
                     {/* <Subscription /> */}
+                    <Servicios></Servicios>
                     <Products />
                     <Blogs />
                     <Faq />

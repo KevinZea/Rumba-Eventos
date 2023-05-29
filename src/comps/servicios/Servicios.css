@@ -1,0 +1,46 @@
+.servicios{
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.service-text{
+    margin: 30px;
+    width: 40%;
+}
+.service-text span{
+    color: rgb(0, 113, 113);
+}
+.service-text h1{
+    padding: 5px;
+    color: rgb(48, 48, 48);
+}
+.service-text h3{
+    color: rgb(0, 113, 113);
+}
+.service-text h4{
+    color: rgb(1, 57, 57);
+}
+.service-text p{
+    font-size: 18px;
+}
+.whatsappbtn{
+    background-color: rgb(1, 57, 57);
+    text-align: center;
+    width: 25%;
+    border-radius: 20px;
+}
+.whatsappbtn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+}
+.services-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 60%;
+    margin: 30px;
+}
+.icon{
+    color: rgb(1, 57, 57);
+    font-size: 70px;
+}
