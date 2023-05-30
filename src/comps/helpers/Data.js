@@ -32,6 +32,11 @@ let navbar_items = [
 		name: 'Contacto',
 		icon: 'fas fa-phone-alt',
 		link: 'contact'
+	},
+	{
+		name: 'Cotizar',
+		icon: 'fas fa-pencil-alt',
+		link: 'formulario'
 	}
 ]
 
@@ -98,6 +103,21 @@ let contact = [
 		type: 'phone-number',
 		info: '+57 3196655806 - +57 3208798194',
 		icon: 'fas fa-phone-alt'
+	},
+	{
+		type: 'facebook',
+		info: 'Rumba Eventos',
+		icon: 'fab fa-facebook'
+	},
+	{
+		type: 'instagram',
+		info: 'rumbaeventossoacha',
+		icon: 'fab fa-instagram'
+	},
+	{
+		type: 'youtube',
+		info: 'RUMBAEVENTOS',
+		icon: 'fab fa-youtube'
 	},
 	{
 		type: 'address-location',

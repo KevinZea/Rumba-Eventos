@@ -1,0 +1,8 @@
+#formulario{
+    background-color: rgb(183, 242, 222);
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px gray;
+    padding: 20px;
+}

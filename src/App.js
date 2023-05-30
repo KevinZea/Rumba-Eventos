@@ -12,6 +12,7 @@ import Footer from './comps/footer/Footer'
 import Sb from './comps/sb/Sb'
 import Btn from './comps/btn-whatsapp/btnwhatsapp'
 import Servicios from './comps/servicios/Servicios'
+import Cotizacion from './comps/cotizacion/Cotizacion'
 class App extends Component
 {
     render()
@@ -29,10 +30,13 @@ class App extends Component
                 <div className = '_body'>
                     <About />
                     {/* <Subscription /> */}
-                    <Servicios></Servicios>
+                    <Servicios/>
                     <Products />
                     <Blogs />
                     <Faq />
+                    <Cotizacion/>
+                    <br></br>
+                    <br></br>
                     <Contact />
                 </div>
 

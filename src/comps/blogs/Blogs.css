@@ -21,7 +21,9 @@
   border-radius: 10px; }
   .blogs .container .row .c .row .c .card .card-img-top {
     border-top-right-radius: 5px;
-    border-top-left-radius: 5px; }
+    border-top-left-radius: 5px;
+    box-shadow: 3px 3px 3px yellow;
+  }
   .blogs .container .row .c .row .c .card:hover {
     background-color: #f2f3f4;
     transform: scale(1.05); }
