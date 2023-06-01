@@ -8,7 +8,7 @@ header {
   header .content {
     color: white; }
     header .content .brand-name {
-      font-family: 'Rampart One', cursive;
+      font-family:cursive;
       font-size: 40px;
       letter-spacing: 2px; }
       header .content .brand-name span {

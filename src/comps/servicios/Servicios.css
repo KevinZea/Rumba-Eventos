@@ -1,6 +1,7 @@
 .servicios{
     display: flex;
     font-family: serif;
+    width: 100%;
 }
 .service-text{
     margin: 30px;
@@ -25,8 +26,9 @@
 .whatsappbtn{
     background-color: rgb(1, 57, 57);
     text-align: center;
-    width: 25%;
+    width: max-content;
     border-radius: 20px;
+    padding: 10px;
 }
 .whatsappbtn a{
     text-decoration: none;
@@ -47,4 +49,9 @@
 .pack h4{
     font-size: 20px;
     color: rgb(1, 57, 57);
+}
+@media(max-width: 600px){
+    .servicios{
+        display: block;
+    }
 }
