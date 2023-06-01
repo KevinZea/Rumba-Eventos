@@ -9,10 +9,25 @@ class Contact extends Component {
 		let items = contact.map(item => {
 			return (
 				<div className={item.type} key={Math.random()}>
-					<p className='ps-3'>
-						{item.info}
-						<i className={`${item.icon} ms-1`}></i>
-					</p>
+					{item.hasOwnProperty('link') ? (
+						<div className={item.type} key={Math.random()}>
+							<p className='ps-3'>
+								<a target='_blank' href={item.link}
+									className='linkis'>
+									{item.info}
+									<i className={`${item.icon} ms-1`}></i>
+								</a>
+							</p>
+						</div>
+					) :
+						<div className={item.type} key={Math.random()}>
+							<p className='ps-3'>
+								{item.info}
+								<i className={`${item.icon} ms-1`}></i>
+							</p>
+						</div>
+					}
+
 				</div>
 			)
 		})

@@ -135,7 +135,7 @@ export default function Servicios() {
                     <div className='icon'>
                         <TbMoodKid></TbMoodKid>
                     </div>
-                    <h2>Recración</h2>
+                    <h2>Recreación</h2>
                     <h4>
                         Animamos tus fiestas infantiles con: musica,
                          titeres, inflables, etc.

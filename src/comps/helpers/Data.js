@@ -7,6 +7,12 @@ import cinco from "../../images/slider/5.jpeg"
 import r1 from "../../images/recent/1.jpeg"
 import r2 from "../../images/recent/2.jpeg"
 
+import nueva1 from "../../images/nuevas/nueva1.jpeg"
+import nueva2 from "../../images/nuevas/nueva2.jpeg"
+import nueva3 from "../../images/nuevas/nueva3.jpeg"
+import nueva4 from "../../images/nuevas/nueva4.jpeg"
+import nueva5 from "../../images/nuevas/nueva5.jpeg"
+
 let navbar_items = [
 	{
 		name: 'Inicio',
@@ -75,7 +81,27 @@ let top_blogs = [
 	{
 		img: cinco,
 		alt: 'blog 5'
-	}
+	},
+	{
+		img: nueva1,
+		alt: 'blog 6'
+	},
+	{
+		img: nueva2,
+		alt: 'blog 7'
+	},
+	{
+		img: nueva3,
+		alt: 'blog 8'
+	},
+	{
+		img: nueva4,
+		alt: 'blog 9'
+	},
+	{
+		img: nueva5,
+		alt: 'blog 10'
+	},
 ]
 
 let recent_blogs = [
@@ -107,16 +133,20 @@ let contact = [
 	{
 		type: 'facebook',
 		info: 'Rumba Eventos',
+		link: 'https://www.facebook.com/rumbaeventosf?mibextid=ZbWKwL',
 		icon: 'fab fa-facebook'
+
 	},
 	{
 		type: 'instagram',
 		info: 'rumbaeventossoacha',
+		link: 'https://instagram.com/rumbaeventossoacha?igshid=NTc4MTIwNjQ2YQ==',
 		icon: 'fab fa-instagram'
 	},
 	{
 		type: 'youtube',
 		info: 'RUMBAEVENTOS',
+		link: 'https://youtube.com/@rumbaeventos7541',
 		icon: 'fab fa-youtube'
 	},
 	{

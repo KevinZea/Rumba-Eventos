@@ -13,6 +13,7 @@ import Sb from './comps/sb/Sb'
 import Btn from './comps/btn-whatsapp/btnwhatsapp'
 import Servicios from './comps/servicios/Servicios'
 import Cotizacion from './comps/cotizacion/Cotizacion'
+import Carrusel from './comps/Carrusel/Carrusel'
 class App extends Component
 {
     render()
@@ -33,6 +34,7 @@ class App extends Component
                     <Servicios/>
                     <Products />
                     <Blogs />
+                    <Carrusel/>
                     <Faq />
                     <Cotizacion/>
                     <br></br>
